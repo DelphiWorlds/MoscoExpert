@@ -4,7 +4,9 @@ This is a basic help page while a more detailed help page is being worked on
 
 ## Installer
 
-The installer can be found on the [MonkeyBuilder downloads](https://www.monkeybuilder.io/download) page
+~~The installer can be found on the MonkeyBuilder downloads page~~
+
+A **temporary** location for the [installer is here](https://github.com/DelphiWorlds/MoscoExpert/Bin/MoscoMBEdition.1.0.1.pkg)
 
 ## Basic help
 

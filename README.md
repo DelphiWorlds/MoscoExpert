@@ -8,7 +8,9 @@ Support for Delphi 10.3.x Rio and Delphi 10.4 Sydney
 
 Requires the macOS companion app for some of the functions. The full version of the Mosco macOS app is yet to be released, however the add-in also works with the MonkeyBuilder edition of the app, which can be found here:
 
-[MonkeyBuilder downloads](https://www.monkeybuilder.io/download)
+~~MonkeyBuilder downloads~~
+
+A **temporary** location for the [MonkeyBuilder edition of the Mosco macOS app installer is here](https://github.com/DelphiWorlds/MoscoExpert/Bin/MoscoMBEdition.1.0.1.pkg)
 
 Basic help for the [Mosco macOS app is here.](MoscoMBApp.md)
 
