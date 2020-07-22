@@ -4,9 +4,13 @@
 
 Delphi add-in that provides functionality specific to macOS and iOS development
 
+Support for Delphi 10.3.x Rio and Delphi 10.4 Sydney
+
 Requires the macOS companion app for some of the functions. The full version of the Mosco macOS app is yet to be released, however the add-in also works with the MonkeyBuilder edition of the app, which can be found here:
 
-[Monkey Builder downloads](https://www.monkeybuilder.io/download)
+[MonkeyBuilder downloads](https://www.monkeybuilder.io/download)
+
+Basic help for the [Mosco macOS app is here.](MoscoMBApp.md)
 
 
 ## Installers for the add-in
@@ -51,7 +55,11 @@ Opens Finder on the Mac, and shows the deployed app (if it has been deployed)
 
 Creates an Assets.car file for deployment to Ad-Hoc or App Store.
 
-To create the file, first deploy the app in Development mode, then use Create Assets.car
+This function has been created specifically to alleviate an issue with [App Store submissions where a 1024 x 1024 icon is not included with the app](https://quality.embarcadero.com/browse/RSP-29692)
+
+**You will need to create a 1024 x 1024 image for use in the App Store and add it using Deployment Manager**
+
+To create the Assets.car file, first deploy the app in **Development** mode (using Project|Deploy), then use the Create Assets.car menu item
 
 The Assets.car file is based upon the icon and launch images deployed with the app, and the file is placed in the Output Folder specified in the Project Options
 
