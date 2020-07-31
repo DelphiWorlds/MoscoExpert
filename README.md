@@ -65,6 +65,19 @@ To create the Assets.car file, first deploy the app in **Development** mode (usi
 
 The Assets.car file is based upon the icon and launch images deployed with the app, and the file is placed in the Output Folder specified in the Project Options
 
+For successful creation of Assets.car, your deployment should contain at least **one** image of each of the following sizes:
+
+* 40 x 40
+* 58 x 58
+* 60 x 60
+* 80 x 80
+* 87 x 87
+* 120 x 120
+* 152 x 152
+* 167 x 167
+* 180 x 180
+* 1024 x 1024
+
 Once the file is created, it should be added to the project in Deployment Manager (this may become automatic in the future)
 
 
