@@ -10,7 +10,7 @@ Requires the macOS companion app for some of the functions. The full version of 
 
 ~~MonkeyBuilder downloads~~
 
-A **temporary** location for the [MonkeyBuilder edition of the Mosco macOS app installer is here](https://github.com/DelphiWorlds/MoscoExpert/blob/master/Bin/MoscoMBEdition.1.0.2.Beta1.pkg)
+A **temporary** location for the [MonkeyBuilder edition of the Mosco macOS app installer is here](https://github.com/DelphiWorlds/MoscoExpert/blob/master/Bin/MoscoMBEdition.1.0.2.Beta4.pkg)
 
 Basic help for the [Mosco macOS app is here.](MoscoMBApp.md)
 
