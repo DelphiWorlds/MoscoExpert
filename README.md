@@ -10,7 +10,7 @@ Requires the macOS companion app for some of the functions. The full version of 
 
 ~~MonkeyBuilder downloads~~
 
-A **temporary** location for the [MonkeyBuilder edition of the Mosco macOS app installer is here](https://github.com/DelphiWorlds/MoscoExpert/blob/master/Bin/MoscoMBEdition.1.0.2.Beta4.pkg)
+A **temporary** location for the [MonkeyBuilder edition of the Mosco macOS app installer is here](https://github.com/DelphiWorlds/MoscoExpert/blob/master/Bin/MoscoMBEdition.1.0.2.Beta5.pkg)
 
 Basic help for the [Mosco macOS app is here.](MoscoMBApp.md)
 
@@ -53,19 +53,19 @@ The SDK Manager in the IDE Options is then presented. Click Update Local File Ca
 
 Opens Finder on the Mac, and shows the deployed app (if it has been deployed)
 
-#### Create Assets.car
+#### Update Assets.car
 
-Creates an Assets.car file for deployment to Ad-Hoc or App Store.
+**NOTE: The following instructions apply to Mosco Expert 1.0.0 Beta 8 or later, and Mosco App (for macOS) 1.0.2 Beta 5 or later**
+
+Updates the Assets.car file in the deployment to Ad-Hoc or App Store.
 
 This function has been created specifically to alleviate an issue with [App Store submissions where a 1024 x 1024 icon is not included with the app](https://quality.embarcadero.com/browse/RSP-29692)
 
 **You will need to create a 1024 x 1024 image for use in the App Store and add it using Deployment Manager**
 
-To create the Assets.car file, first deploy the app in **Development** mode (using Project|Deploy), then use the Create Assets.car menu item
+To update the Assets.car file, deploy the app in App Store or Ad Hoc mode (using Project|Deploy), then use the Update Assets.car menu item
 
-The Assets.car file is based upon the icon and launch images deployed with the app, and the file is placed in the Output Folder specified in the Project Options
-
-For successful creation of Assets.car, your deployment should contain at least **one** image of each of the following sizes:
+The Assets.car file is based upon the icon and launch images deployed with the app. For successful creation of Assets.car, your deployment should contain at least **one** image of each of the following sizes:
 
 * 40 x 40
 * 58 x 58
@@ -78,7 +78,7 @@ For successful creation of Assets.car, your deployment should contain at least *
 * 180 x 180
 * 1024 x 1024
 
-Once the file is created, it should be added to the project in Deployment Manager (this may become automatic in the future)
+The Assets.car file inside the application IPA file on the Mac is automatically replaced by Mosco.
 
 
 ### Functions that will work whether or not the Mosco macOS app is running:
