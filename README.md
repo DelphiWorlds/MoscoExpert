@@ -55,7 +55,7 @@ Opens Finder on the Mac, and shows the deployed app (if it has been deployed)
 
 #### Update Assets.car
 
-**NOTE: The following instructions apply to Mosco Expert 1.0.0 Beta 8 or later, and Mosco App (for macOS) 1.0.2 Beta 5 or later**
+**NOTE: The following instructions apply to Mosco Expert 1.0.0 Beta 9 or later, and Mosco App (for macOS) 1.0.2 Beta 7 or later**
 
 Updates the Assets.car file in the deployment to Ad-Hoc or App Store.
 
@@ -63,7 +63,10 @@ This function has been created specifically to alleviate an issue with [App Stor
 
 **You will need to create a 1024 x 1024 image for use in the App Store and add it using Deployment Manager**
 
-To update the Assets.car file, deploy the app in App Store or Ad Hoc mode (using Project|Deploy), then use the Update Assets.car menu item
+To update the Assets.car file:
+
+1. Deploy the app in App Store or Ad Hoc mode (using Project|Deploy), then
+2. Use the Update Assets.car menu item so that Mosco updates the Assets.car contained in the .ipa file on the Mac 
 
 The Assets.car file is based upon the icon and launch images deployed with the app. For successful creation of Assets.car, your deployment should contain at least **one** image of each of the following sizes:
 
