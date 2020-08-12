@@ -10,7 +10,7 @@ Requires the macOS companion app for some of the functions. The full version of 
 
 ~~MonkeyBuilder downloads~~
 
-A **temporary** location for the [MonkeyBuilder edition of the Mosco macOS app installer is here](https://github.com/DelphiWorlds/MoscoExpert/blob/master/Bin/MoscoMBEdition.1.0.2.Beta7.pkg)
+A **temporary** location for the [MonkeyBuilder edition of the Mosco macOS app installer is here](https://github.com/DelphiWorlds/MoscoExpert/blob/master/Bin/MoscoMBEdition.1.0.2.Beta9.pkg)
 
 Basic help for the [Mosco macOS app is here.](MoscoMBApp.md)
 
@@ -55,7 +55,7 @@ Opens Finder on the Mac, and shows the deployed app (if it has been deployed)
 
 #### Update Assets.car
 
-**NOTE: The following instructions apply to Mosco Expert 1.0.0 Beta 9 or later, and Mosco App (for macOS) 1.0.2 Beta 7 or later**
+**NOTE: The following instructions apply to Mosco Expert 1.0.0 Beta 10 or later, and Mosco App (for macOS) 1.0.2 Beta 9 or later**
 
 Updates the Assets.car file in the deployment to Ad-Hoc or App Store.
 
