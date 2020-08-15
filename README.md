@@ -10,7 +10,7 @@ Requires the macOS companion app for some of the functions. The full version of 
 
 ~~MonkeyBuilder downloads~~
 
-A **temporary** location for the [MonkeyBuilder edition of the Mosco macOS app installer is here](https://github.com/DelphiWorlds/MoscoExpert/blob/master/Bin/MoscoMBEdition.1.0.2.Beta9.pkg)
+A **temporary** location for the [MonkeyBuilder edition of the Mosco macOS app installer is here](https://github.com/DelphiWorlds/MoscoExpert/blob/master/Bin/MoscoMBEdition.1.0.2.pkg)
 
 Basic help for the [Mosco macOS app is here.](MoscoMBApp.md)
 
@@ -94,6 +94,11 @@ Instantly switches between connection profiles
 
 Instantly switches between SDKs
 
+## Change history:
+
+v1.0.2 (August 15th, 2020)
+
+* Initial full release - version number aligned with that of the companion macOS app
 
 
 
