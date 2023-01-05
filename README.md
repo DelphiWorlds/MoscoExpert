@@ -1,5 +1,9 @@
 # Mosco Expert
 
+## Abandoned
+
+**This repo has been abandoned** as the functionality has been merged into [Codex](https://github.com/DelphiWorlds/Codex)
+
 ## Description
 
 Delphi add-in that provides functionality specific to macOS and iOS development
